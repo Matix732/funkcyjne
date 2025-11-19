@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Dokumenty\MATEUSZ\Studia\2025-26\funkcyjne\Zad4\main.scala:41:56: ';' expected but '#' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    val dane = read_json[SafeAppendIN]("zad.3.0.json") #3.0 lub 3.0-bad dla błędu[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
