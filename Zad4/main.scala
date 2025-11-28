@@ -69,7 +69,7 @@ object Zadanie extends cask.MainRoutes {
   // Zadanie 4.0 połączenie dwóch list
   @cask.post("/concatOption")
   def concatOption(): ujson.Value = {
-    val dane = read_json[TwoOptionsIN]("zad.4.0.json")
+    val dane = read_json[TwoOptionsIN]("zad40.json")
     
     val wynik: Option[List[Int]] = for {
       l1 <- dane.list1

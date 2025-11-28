@@ -162,7 +162,7 @@ object Zadanie extends cask.MainRoutes {
   // Zadanie 4.5 foldLeft
   @cask.post("/foldLeft")
   def foldLeft(): ujson.Value = {
-    val dane = read_json[FoldLeftRequest]("data_foldLeft.json")
+    val dane = read_json[FoldLeftRequest]("zad.4.5.json")
     // def dodawania 
     val operacja = (suma: Int, element: Int) => suma + element
     val wartoscPoczatkowa = 0
@@ -173,7 +173,7 @@ object Zadanie extends cask.MainRoutes {
   // Zadanie 5.0 concatenate
   @cask.post("/concatenate")
   def concatenate(): ujson.Value = {
-    val dane = read_json[ConcatRequest]("data_concatenate.json")
+    val dane = read_json[ConcatRequest]("zad.5.0.json")
     val wynik = dane.listA.concatenate(dane.listB)
     write(ListaWiazanaResponse(wynik))
   }

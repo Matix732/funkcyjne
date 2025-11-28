@@ -1,0 +1,4 @@
+Zrobione:
+zad 3.0
+zad 3.5
+zad 5.0
