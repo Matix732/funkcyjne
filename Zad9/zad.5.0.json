@@ -1,0 +1,13 @@
+{
+  "students": [
+    {"id": 1, "name": "Kowalski"},
+    {"id": 2, "name": "Nowak"},
+    {"id": 3, "name": "Wisniewski"}
+  ],
+  "grades": [
+    {"studentId": 1, "course": "Math", "grade": 5.0},
+    {"studentId": 1, "course": "Bio", "grade": 4.0},
+    {"studentId": 2, "course": "Math", "grade": 2.0},
+    {"studentId": 2, "course": "Bio", "grade": 3.0}
+  ]
+}

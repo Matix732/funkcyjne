@@ -1,0 +1,7 @@
+{
+  "activities": [
+    {"student": "Jan", "hours": 2},
+    {"student": "Anna", "hours": 5},
+    {"student": "Jan", "hours": 3}
+  ]
+}
