@@ -1,0 +1,14 @@
+cabal-version:       2.4
+name:                zad10-Haskell
+version:             0.1.0.0
+build-type:          Simple
+
+executable zad10-Haskell
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded
+  build-depends:       base >= 4.13 && < 5
+                     , scotty
+                     , aeson
+                     , text
+                     , bytestring

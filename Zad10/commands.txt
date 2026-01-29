@@ -1,0 +1,19 @@
+JS
+isPrime
+curl.exe -X POST -H "Content-Type: application/json" -d "{\"number\": 17}" https://zad10-funkcje-js.azurewebsites.net/api/isPrime
+
+sortList
+curl.exe -X POST -H "Content-Type: application/json" -d "{\"list\": [10, 2, 50, 5, 1]}" https://zad10-funkcje-js.azurewebsites.net/api/sortList
+
+studentAverage
+curl.exe -X POST -H "Content-Type: application/json" -d "{ \"students\": [{ \"id\": 1, \"name\": \"Jan\" }, { \"id\": 2, \"name\": \"Anna\" }], \"grades\": [{ \"studentId\": 1, \"course\": \"Math\", \"grade\": 5 }, { \"studentId\": 1, \"course\": \"Bio\", \"grade\": 3 }, { \"studentId\": 2, \"course\": \"Math\", \"grade\": 4 }] }" https://zad10-funkcje-js.azurewebsites.net/api/studentAverage
+
+Hs
+funktor - dodawanie
+curl.exe -X POST -H "Content-Type: application/json" -d "{\"val1\": 10, \"val2\": 5, \"operation\": \"+\"}" https://zad10haskell-gdh5edesdrgshrgv.polandcentral-01.azurewebsites.net/functorMap
+
+konkatencja
+curl.exe -X POST -H "Content-Type: application/json" -d "{\"list1\": [1, 2], \"list2\": [3, 4], \"list3\": [5]}" https://zad10haskell-gdh5edesdrgshrgv.polandcentral-01.azurewebsites.net/monoidConcat
+
+foldMap
+curl.exe -X POST -H "Content-Type: application/json" -d "{\"list\": [10, 2, 5, 20]}" https://zad10haskell-gdh5edesdrgshrgv.polandcentral-01.azurewebsites.net/statsFoldMap
